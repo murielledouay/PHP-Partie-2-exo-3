@@ -10,15 +10,10 @@ $gender = 'femme';
   <title>Partie 2 exo 3</title>
 </head>
 <body>
-  <?php
-  if ($gender == 'homme'){
-      echo 'C\'est un développeur !!!';
-    } elseif ($gender == 'femme'){
-      echo 'C\'est une développeuse !!!';
-    }
-    else {
-      echo 'Vous avez fait une erreur dans le genre';
-    }
-  ?>
+  <?php if ($gender != 'homme'){ ?>
+    <p>C'est une développeuse !!!</p>
+  <?php } else { ?>
+    <p>C'est un développeur !!!</p>
+  <?php } ?>
 </body>
 </html>
