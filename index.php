@@ -12,9 +12,9 @@ $gender = 'femme';
 <body>
   <?php
   if ($gender == 'homme'){
-      echo 'C\'est un développeur!!!';
+      echo 'C\'est un développeur !!!';
     } elseif ($gender == 'femme'){
-      echo 'C\'est une développeuse!!!';
+      echo 'C\'est une développeuse !!!';
     }
     else {
       echo 'Vous avez fait une erreur dans le genre';
